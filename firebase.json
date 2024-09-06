@@ -1,0 +1,52 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "masa-chat-sechack365-2024",
+          "appId": "1:1044636784507:android:fc879f408454aa556dcfde",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "masa-chat-sechack365-2024",
+          "appId": "1:1044636784507:ios:8e3081cd99ea9e136dcfde",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "masa-chat-sechack365-2024",
+          "appId": "1:1044636784507:ios:8e3081cd99ea9e136dcfde",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "masa-chat-sechack365-2024",
+          "configurations": {
+            "android": "1:1044636784507:android:fc879f408454aa556dcfde",
+            "ios": "1:1044636784507:ios:8e3081cd99ea9e136dcfde",
+            "macos": "1:1044636784507:ios:8e3081cd99ea9e136dcfde",
+            "web": "1:1044636784507:web:121e0b0835d054286dcfde",
+            "windows": "1:1044636784507:web:2cf7324d64a8db616dcfde"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
+  }
+}

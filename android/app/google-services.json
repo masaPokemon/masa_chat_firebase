@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044636784507",
+    "project_id": "masa-chat-sechack365-2024",
+    "storage_bucket": "masa-chat-sechack365-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044636784507:android:fc879f408454aa556dcfde",
+        "android_client_info": {
+          "package_name": "com.example.masa_chat_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFtvU2nkOl8hR6lp6T31rZYzfMn2KH53o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
