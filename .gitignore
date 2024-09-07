@@ -1,6 +1,7 @@
 /assets/
 pubspec.lock
 pubspec.yaml
+*.dart
 firebase.json
 /.firebase/
 /.firebaserc/
