@@ -1,3 +1,7 @@
+/assets/
+pubspec.lock
+pubspec.yaml
+firebase.json
 /.firebase/
 /.firebaserc/
 # Miscellaneous
@@ -9,9 +13,17 @@
 .atom/
 .buildlog/
 .history
+README.md
 .svn/
+.metadata
+/test/
+/windows/
+/macos/
+/linux/
+/.github/
 migrate_working_dir/
-
+devtools_options.yaml
+analysis_options.yaml
 # IntelliJ related
 *.iml
 *.ipr
