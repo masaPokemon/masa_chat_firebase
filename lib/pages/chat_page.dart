@@ -3,7 +3,6 @@ import 'package:chatapp_firebase/service/database_service.dart';
 import 'package:chatapp_firebase/widgets/message_tile.dart';
 import 'package:chatapp_firebase/widgets/widgetsa.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:chatapp_firebase/pages/call_page.dart';
 import 'package:flutter/material.dart';
 
 var channelName;
@@ -67,15 +66,6 @@ class _ChatPageState extends State<ChatPage> {
                         adminName: admin));
               },
               icon: const Icon(Icons.info)),
-          //IconButton(
-            //onPressed: () {
-              //channelName = widget.groupId;
-              //Navigator.push(
-                //context,
-                //MaterialPageRoute(builder: (context) => MyApp()),
-              //);
-            //},
-          //icon: const Icon(Icons.call))
         ],
       ),
       body: Stack(children: <Widget>[
