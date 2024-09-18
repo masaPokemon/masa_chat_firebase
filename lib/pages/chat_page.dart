@@ -67,15 +67,15 @@ class _ChatPageState extends State<ChatPage> {
                         adminName: admin));
               },
               icon: const Icon(Icons.info)),
-          IconButton(
-              onPressed: () {
-                channelName = widget.groupId;
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => MyApp()),
-                );
-              },
-              icon: const Icon(Icons.call))
+          //IconButton(
+            //onPressed: () {
+              //channelName = widget.groupId;
+              //Navigator.push(
+                //context,
+                //MaterialPageRoute(builder: (context) => MyApp()),
+              //);
+            //},
+          //icon: const Icon(Icons.call))
         ],
       ),
       body: Stack(children: <Widget>[
